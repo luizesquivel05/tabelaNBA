@@ -12,9 +12,9 @@ while True:
     if verificar == "NBA":
         os.system('cls')
         print(txt.sobreNBA)
-    elif verificar == "TNBA":
+    elif verificar == "TABELANBA":
         os.system('cls')
-        print(txt.sobreTABELANBA)
+        print(txt.tabelaNBA)
     elif verificar == "TNBA":
         os.system('cls')
         print(txt.tabelaNBA)
