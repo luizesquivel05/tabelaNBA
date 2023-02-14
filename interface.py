@@ -55,6 +55,7 @@ def sobre():
     sobre.resizable(False, False)
     sobre.title("TABELANBA05 | sobre")
     tk.Button(fg="white", master=sobre, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="SOBRE").place(x=450, y=10)
     sobre.mainloop()
 
 def sobreNBA():
@@ -67,6 +68,7 @@ def sobreNBA():
     sobreNBA.resizable(False, False)
     sobreNBA.title("TABELANBA05 | sobreNBA")
     tk.Button(fg="white", master=sobreNBA, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="SOBRE NBA").place(x=400, y=10)
     sobreNBA.mainloop()
 
 def tabelas():
@@ -79,6 +81,7 @@ def tabelas():
     tabelas.resizable(False, False)
     tabelas.title("TABELANBA05 | tabelas")
     tk.Button(fg="white", master=tabelas, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="TABELAS").place(x=450, y=10)
     tabelas.mainloop()
 
 def tabelaNBAC():
@@ -91,6 +94,7 @@ def tabelaNBAC():
     tabelaNBAC.resizable(False, False)
     tabelaNBAC.title("TABELANBA05 | tabela conferencia")
     tk.Button(fg="white", master=tabelaNBAC, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="TABELAS NBAC").place(x=450, y=10)
     tabelaNBAC.mainloop()
 
 def tabelaNBAC1():
@@ -103,6 +107,7 @@ def tabelaNBAC1():
     tabelaNBAC1.resizable(False, False)
     tabelaNBAC1.title("TABELANBA05 | tabela conferencia1")
     tk.Button(fg="white", master=tabelaNBAC1, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="TABELAS NBAC1").place(x=450, y=10)
     tabelaNBAC1.mainloop()
 
 def tabelaNBAG():
@@ -115,6 +120,7 @@ def tabelaNBAG():
     tabelaNBAG.resizable(False, False)
     tabelaNBAG.title("TABELANBA05 | tabela geral")
     tk.Button(fg="white", master=tabelaNBAG, font=('Montserrat', 20), background="red", text="VOLTAR A HOME", command=irCASA).place(x=10, y=10)
+    tk.Label(font=('Montserrat', 20), text="TABELAS NBAG").place(x=450, y=10)
     tabelaNBAG.mainloop()
 
 def casa():
@@ -137,7 +143,6 @@ def casa():
 
     # conteúdo:
     tk.Label(master=home, text="TABELANBA05", font=('Montserrat', 20)).place(x=200, y= 5) # titulo
-
     tk.Label(master=home, text="O que deseja fazer hoje?", font=('Montserrat', 18)).place(x=50, y=50) # subtitulo
     tk.Button(fg="white", master=home, font=('Montserrat', 18), background="red", text="SOBRE TABELANBA05", command=irSOBRE).place(x=40, y=150) # botao para realizar acao1.1
     tk.Button(fg="white", master=home, font=('Montserrat', 18), background="red", text="SOBRE NBA", command=irSOBRENBA).place(x=320, y=150) # botao para realizar acao1.1
